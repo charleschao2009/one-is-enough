@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+ <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/home_btn_bg</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="top_size">
+        <item name="android:textSize">26dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="content_time">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="content_title">
+        <item name="android:textSize">26dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="content_author">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#B4CDE6</item>
+    </style>
+
+    <style name="content_content">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textScaleX">1.2</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <style name="question_title">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="question_content">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textScaleX">1.2</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+	<style name="tip_more_list_title">
+	    <item name="android:textSize">26dp</item>
+	    <item name="android:textColor">#86AA39</item>
+	</style>
+	
+	<style name="tip_more_list_content">
+	    <item name="android:textSize">20dp</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:textColorHighlight">#86AA39</item>
+	</style>
+	
+</resources>
